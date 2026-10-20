@@ -1,0 +1,84 @@
+/* style.css - Blog Aprisa 2510010286 - 3B NON REG BJB */
+
+body {
+  background-color: #f5f7fa;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+/* CONTAINER BLOG - sesuai tugas max-width 728px */
+.container {
+  max-width: 728px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* HEADER & NAV */
+header {
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #3498db;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+/* JUDUL */
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+}
+
+h2 {
+  color: #34495e;
+}
+
+/* PARAGRAF - Tipografi enak dibaca */
+p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+/* QUOTE */
+em {
+  display: block;
+  background: #ecf0f1;
+  border-left: 4px solid #3498db;
+  padding: 10px 15px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* LIST Yang Sudah Dipelajari */
+ul li {
+  margin-bottom: 5px;
+}
+
+/* LINK Referensi */
+a {
+  color: #2980b9;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #7f8c8d;
+}
