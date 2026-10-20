@@ -1,45 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Aprisa</title>
 <style>
-body{font-family:Arial;background:#f0f0f0;margin:0;padding:20px}
-h1{text-align:center}
-.container{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
-.card{background:white;width:220px;border-radius:10px;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,0.1);text-align:center}
-.card img{width:100%;height:150px;object-fit:cover;border-radius:8px}
-.card h3{margin:10px 0 5px}
-.card p{color:green;font-weight:bold}
-button{background:#007bff;color:white;border:none;padding:8px 15px;border-radius:5px;cursor:pointer}
+*{box-sizing:border-box;font-family:Arial}
+body{margin:0;background:#f5f6fa}
+h2{padding:20px 20px 5px}
+.sub{padding:0 20px;font-size:13px;color:#555}
+.kategori{background:#fffa65;padding:12px 20px;font-weight:bold;margin:15px 0}
+.container{display:flex;flex-wrap:wrap;gap:20px;padding:0 20px}
+.card{background:white;width:230px;border-radius:8px;padding:12px;box-shadow:0 2px 6px rgba(0,0,0,0.1);position:relative}
+.card img{width:100%;height:130px;object-fit:contain}
+.badge{position:absolute;top:8px;left:8px;font-size:11px;color:white;padding:3px 6px;border-radius:3px}
+.merah{background:red}.hijau{background:green}
+.card h3{font-size:14px;margin:8px 0 3px}
+.card p{color:#d63031;font-weight:bold;font-size:13px}
+.btn{background:#0984e3;color:white;border:none;width:100%;padding:8px;border-radius:5px;margin-top:8px;cursor:pointer}
 </style>
 </head>
 <body>
-<h1>Toko Online Aprisa - 2510010286</h1>
+
+<h2>Kartu Produk Toko</h2>
+<p class="sub">Aprisa - 2510010286 - 3B NON REG BJB - Tugas 5 Box Model & Position</p>
+
+<div class="kategori">Kategori: Elektronik & Fashion Terlaris</div>
+
 <div class="container">
-  <div class="card">
-    <img src="laptop.jpeg">
-    <h3>Laptop Gaming</h3>
-    <p>Rp 12.000.000</p>
-    <button>Beli</button>
-  </div>
-  <div class="card">
-    <img src="headphone.jpeg">
-    <h3>Headphone</h3>
-    <p>Rp 500.000</p>
-    <button>Beli</button>
-  </div>
-  <div class="card">
-    <img src="tas.jpeg">
-    <h3>Tas Ransel</h3>
-    <p>Rp 250.000</p>
-    <button>Beli</button>
-  </div>
-  <div class="card">
-    <img src="sepatu.jpeg">
-    <h3>Sepatu Sport</h3>
-    <p>Rp 800.000</p>
-    <button>Beli</button>
-  </div>
+
+<div class="card">
+<span class="badge merah">Diskon 50%</span>
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300" alt="Laptop">
+<h3>Laptop Gaming Aprisa</h3>
+<p>Rp 14.500.000</p>
+<button class="btn">Beli</button>
+</div>
+
+<div class="card">
+<span class="badge hijau">Baru</span>
+<img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=300" alt="Headphone">
+<h3>Headphone Bass</h3>
+<p>Rp 114.000</p>
+<button class="btn">Beli</button>
+</div>
+
+<div class="card">
+<span class="badge merah">Diskon</span>
+<img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300" alt="Tas">
+<h3>Tas Kuliah 3B</h3>
+<p>Rp 107.000</p>
+<button class="btn">Beli</button>
+</div>
+
+<div class="card">
+<span class="badge merah">Best Seller</span>
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300" alt="Sepatu">
+<h3>Sepatu Ngoding</h3>
+<p>Rp 314.000</p>
+<button class="btn">Beli</button>
+</div>
+
 </div>
 </body>
 </html>
